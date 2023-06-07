@@ -1,0 +1,261 @@
+[
+  {
+    "model": "menu.foodcategory",
+    "pk": 1,
+    "fields": {
+      "created": "2023-06-07T11:57:39.433Z",
+      "modified": "2023-06-07T11:57:39.433Z",
+      "name_ru": "Первое",
+      "name_en": null,
+      "name_ch": null,
+      "order_id": 10
+    }
+  },
+  {
+    "model": "menu.foodcategory",
+    "pk": 2,
+    "fields": {
+      "created": "2023-06-07T11:58:55.984Z",
+      "modified": "2023-06-07T11:58:55.984Z",
+      "name_ru": "Добавки",
+      "name_en": null,
+      "name_ch": null,
+      "order_id": 10
+    }
+  },
+  {
+    "model": "menu.foodcategory",
+    "pk": 3,
+    "fields": {
+      "created": "2023-06-07T12:00:45.547Z",
+      "modified": "2023-06-07T12:00:45.547Z",
+      "name_ru": "Второе",
+      "name_en": null,
+      "name_ch": null,
+      "order_id": 10
+    }
+  },
+  {
+    "model": "menu.foodcategory",
+    "pk": 4,
+    "fields": {
+      "created": "2023-06-07T12:02:57.350Z",
+      "modified": "2023-06-07T12:02:57.350Z",
+      "name_ru": "Гарнир",
+      "name_en": null,
+      "name_ch": null,
+      "order_id": 10
+    }
+  },
+  {
+    "model": "menu.foodcategory",
+    "pk": 5,
+    "fields": {
+      "created": "2023-06-07T12:05:28.832Z",
+      "modified": "2023-06-07T12:05:28.832Z",
+      "name_ru": "Паста",
+      "name_en": null,
+      "name_ch": null,
+      "order_id": 10
+    }
+  },
+  {
+    "model": "menu.foodcategory",
+    "pk": 6,
+    "fields": {
+      "created": "2023-06-07T12:06:11.823Z",
+      "modified": "2023-06-07T12:06:11.823Z",
+      "name_ru": "Напитки",
+      "name_en": null,
+      "name_ch": null,
+      "order_id": 10
+    }
+  },
+  {
+    "model": "menu.food",
+    "pk": 1,
+    "fields": {
+      "created": "2023-06-07T11:59:24.645Z",
+      "modified": "2023-06-07T11:59:24.645Z",
+      "category": 2,
+      "is_vegan": false,
+      "is_special": false,
+      "code": 2,
+      "internal_code": null,
+      "name_ru": "Сметана",
+      "description_ru": null,
+      "description_en": null,
+      "description_ch": null,
+      "cost": "20.00",
+      "is_publish": true,
+      "additional": []
+    }
+  },
+  {
+    "model": "menu.food",
+    "pk": 2,
+    "fields": {
+      "created": "2023-06-07T11:59:40.680Z",
+      "modified": "2023-06-07T11:59:40.680Z",
+      "category": 1,
+      "is_vegan": false,
+      "is_special": false,
+      "code": 1,
+      "internal_code": null,
+      "name_ru": "Борщ",
+      "description_ru": null,
+      "description_en": null,
+      "description_ch": null,
+      "cost": "150.00",
+      "is_publish": true,
+      "additional": [
+        1
+      ]
+    }
+  },
+  {
+    "model": "menu.food",
+    "pk": 3,
+    "fields": {
+      "created": "2023-06-07T12:01:40.940Z",
+      "modified": "2023-06-07T12:01:40.940Z",
+      "category": 2,
+      "is_vegan": false,
+      "is_special": false,
+      "code": 2,
+      "internal_code": null,
+      "name_ru": "Лимон",
+      "description_ru": null,
+      "description_en": null,
+      "description_ch": null,
+      "cost": "5.00",
+      "is_publish": true,
+      "additional": []
+    }
+  },
+  {
+    "model": "menu.food",
+    "pk": 4,
+    "fields": {
+      "created": "2023-06-07T12:01:48.053Z",
+      "modified": "2023-06-07T12:01:48.053Z",
+      "category": 1,
+      "is_vegan": false,
+      "is_special": false,
+      "code": 3,
+      "internal_code": null,
+      "name_ru": "Солянка",
+      "description_ru": null,
+      "description_en": null,
+      "description_ch": null,
+      "cost": "200.00",
+      "is_publish": true,
+      "additional": [
+        3
+      ]
+    }
+  },
+  {
+    "model": "menu.food",
+    "pk": 5,
+    "fields": {
+      "created": "2023-06-07T12:03:20.450Z",
+      "modified": "2023-06-07T12:16:45.841Z",
+      "category": 4,
+      "is_vegan": false,
+      "is_special": false,
+      "code": 4,
+      "internal_code": 2,
+      "name_ru": "Пюре",
+      "description_ru": null,
+      "description_en": null,
+      "description_ch": null,
+      "cost": "50.00",
+      "is_publish": true,
+      "additional": []
+    }
+  },
+  {
+    "model": "menu.food",
+    "pk": 6,
+    "fields": {
+      "created": "2023-06-07T12:03:56.650Z",
+      "modified": "2023-06-07T12:16:57.496Z",
+      "category": 4,
+      "is_vegan": false,
+      "is_special": false,
+      "code": 4,
+      "internal_code": 3,
+      "name_ru": "Макароны",
+      "description_ru": null,
+      "description_en": null,
+      "description_ch": null,
+      "cost": "25.00",
+      "is_publish": true,
+      "additional": []
+    }
+  },
+  {
+    "model": "menu.food",
+    "pk": 7,
+    "fields": {
+      "created": "2023-06-07T12:03:59.667Z",
+      "modified": "2023-06-07T12:09:15.281Z",
+      "category": 3,
+      "is_vegan": false,
+      "is_special": false,
+      "code": 4,
+      "internal_code": 1,
+      "name_ru": "Котлеты",
+      "description_ru": null,
+      "description_en": null,
+      "description_ch": null,
+      "cost": "170.00",
+      "is_publish": true,
+      "additional": [
+        5,
+        6
+      ]
+    }
+  },
+  {
+    "model": "menu.food",
+    "pk": 8,
+    "fields": {
+      "created": "2023-06-07T12:05:15.779Z",
+      "modified": "2023-06-07T12:05:15.779Z",
+      "category": 3,
+      "is_vegan": false,
+      "is_special": false,
+      "code": 4,
+      "internal_code": null,
+      "name_ru": "Жаркое",
+      "description_ru": null,
+      "description_en": null,
+      "description_ch": null,
+      "cost": "180.00",
+      "is_publish": true,
+      "additional": []
+    }
+  },
+  {
+    "model": "menu.food",
+    "pk": 9,
+    "fields": {
+      "created": "2023-06-07T12:06:00.402Z",
+      "modified": "2023-06-07T12:06:00.402Z",
+      "category": 5,
+      "is_vegan": false,
+      "is_special": false,
+      "code": 5,
+      "internal_code": null,
+      "name_ru": "Карбонара",
+      "description_ru": null,
+      "description_en": null,
+      "description_ch": null,
+      "cost": "200.00",
+      "is_publish": false,
+      "additional": []
+    }
+  }
+]
